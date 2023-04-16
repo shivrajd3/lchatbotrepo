@@ -16,7 +16,7 @@ import os
 
 hostname = socket.gethostname()
 
-if hostname == 'ubuntu-s-1vcpu-1gb-intel-fra1-01':
+if hostname == 'ubuntu-s-1vcpu-1gb-intel-fra1-01' or hostname == 'ubuntu-s-2vcpu-4gb-intel-tor1-01':
     env = 'live'
 else:
     env = 'dev'
