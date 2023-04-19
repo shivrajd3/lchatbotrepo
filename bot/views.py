@@ -142,6 +142,7 @@ def generate_response_old(request, user_input="hello"):
                             words=words, word_classes=word_classes)
     chat_resp = chat_response(ints, intents)
     logger.info(chat_resp)
+    # chat_resp = json.dumps(chat_resp, indent=4)
     chat_resp_json = {'response': chat_resp}
 
     return JsonResponse(chat_resp_json)

@@ -34,6 +34,8 @@ class askthebot(viewsets.ViewSet):
         logger.info(f"user_message: {user_msg['user_msg']}")
         logger.info(
             f"botresponse json response: {botresponse_json['response']}")
-        botresponseobj = ResponseClass(botresponse=botresponse_json)
+        # botresponseobj = ResponseClass(botresponse=botresponse_json)
+        botresponseobj = ResponseClass(botresponse=botresponse_json['response'])
         serializer = BotResponseSerializer(botresponseobj)
-        return Response(serializer.data)
+        logger.info(f"serializer data bot response: {serializer.data['botresponse']}")
+        return Response(serializer.data['botresponse'])
