@@ -73,17 +73,10 @@ def train_model(request):
 
     i = Input(shape=(input_shape,))
     x = Embedding(vocabulary+1,10)(i)
-    # x = Dense(128, input_shape=(input_shape,), activation='relu')(x)
-    # x = Dropout(0.2)(x)
-    # x = Dense(64, input_shape=(input_shape,), activation='relu')(x)
-    # # x = Dropout(0.2)(x)
-    # x = Dense(32, input_shape=(input_shape,), activation='relu')(x)
-    # x = Dropout(0.2)(x)
     x = LSTM(30,return_sequences=True)(x)
     x = Flatten()(x)
     x = Dense(output_length,activation="softmax")(x)
     model  = Model(i,x)
-
     model.compile(loss="sparse_categorical_crossentropy",optimizer='adam',metrics=['accuracy'])
 
     train = model.fit(x_train,y_train,epochs=100)
