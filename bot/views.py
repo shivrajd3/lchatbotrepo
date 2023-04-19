@@ -12,7 +12,18 @@ import random
 from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseRedirect, JsonResponse
 import logging
+import tensorflow as tf
+import pandas as pd
+from tensorflow.keras.preprocessing.text import Tokenizer
+from tensorflow.keras.layers import Input, Embedding, LSTM, Dense, GlobalMaxPooling1D, Flatten, Dropout
+from tensorflow.keras.models import Model
+import string
+from tensorflow.keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from sklearn.preprocessing import LabelEncoder
+
 logger = logging.getLogger('django')
+le = LabelEncoder()
 
 word_lemmatizer = WordNetLemmatizer()
 # Creating a WordNetLemmatizer object to lemmatize words
@@ -22,10 +33,120 @@ intent_data = open('bot/static/Intent - loyalist.json').read()
 intents = json.loads(intent_data)
 # nltk.download('punkt')
 
+data1 = intents
+
+#getting all the data to lists
+tags = []
+inputs = []
+responses={}
+for intent in data1['intents']:
+    responses[intent['tag']]=intent['responses']
+    for lines in intent['patterns']:
+        inputs.append(lines)
+        tags.append(intent['tag'])
+data = pd.DataFrame({"inputs":inputs,
+                        "tags":tags})
+# data = data.sample(frac=1)
+
+tokenizer = Tokenizer(num_words=2000)
+tokenizer.fit_on_texts(data['inputs'])
+
+train = tokenizer.texts_to_sequences(data['inputs'])
+#apply padding
+
+x_train = pad_sequences(train)
+
+#encoding the outputs
+y_train = le.fit_transform(data['tags'])
+
 # Create your views here.
 
-
 def train_model(request):
+    
+    input_shape = x_train.shape[1]
+    print(input_shape)
+
+    vocabulary = len(tokenizer.word_index)
+    print("number of unique words : ",vocabulary)
+    output_length = le.classes_.shape[0]
+    print("output length: ",output_length)
+
+    i = Input(shape=(input_shape,))
+    x = Embedding(vocabulary+1,10)(i)
+    # x = Dense(128, input_shape=(input_shape,), activation='relu')(x)
+    # # x = Dropout(0.2)(x)
+    # x = Dense(64, input_shape=(input_shape,), activation='relu')(x)
+    # # x = Dropout(0.2)(x)
+    # x = Dense(32, input_shape=(input_shape,), activation='relu')(x)
+    # x = Dropout(0.2)(x)
+    x = LSTM(30,return_sequences=True)(x)
+    x = Flatten()(x)
+    x = Dense(output_length,activation="softmax")(x)
+    model  = Model(i,x)
+
+    model.compile(loss="sparse_categorical_crossentropy",optimizer='adam',metrics=['accuracy'])
+
+    train = model.fit(x_train,y_train,epochs=50)
+    model.save("bot/mlmodels/chatbot_model.h5", model)
+    return HttpResponse('training completed')
+
+def generate_response(request, user_input="hello"):
+    model = load_model('bot/mlmodels/chatbot_model.h5')
+    
+    train = tokenizer.texts_to_sequences(data['inputs'])
+    #apply padding
+    
+    x_train = pad_sequences(train)
+
+    input_shape = x_train.shape[1]
+
+    texts_p = []
+    logger.info(f'request info: {request}')
+    if request is not None:
+        user_input = request
+
+    prediction_input = user_input
+    prediction_input = [letters.lower() for letters in prediction_input if letters not in string.punctuation]
+    prediction_input = ''.join(prediction_input)
+    texts_p.append(prediction_input)
+
+    #tokenizing and padding
+    prediction_input = tokenizer.texts_to_sequences(texts_p)
+    prediction_input = np.array(prediction_input).reshape(-1)
+    prediction_input = pad_sequences([prediction_input],input_shape)
+
+    #getting output from model
+    
+    output = model.predict(prediction_input)
+    output = output.argmax()
+
+    #finding the right tag and predicting
+    response_tag = le.inverse_transform([output])[0]
+    print("Loyalist Bot : ",random.choice(responses[response_tag]))
+    chat_resp = random.choice(responses[response_tag])
+    
+    chat_resp_json = {'response': chat_resp}
+    return JsonResponse(chat_resp_json)
+
+def generate_response_old(request, user_input="hello"):
+
+    logger.info(f'request info: {request}')
+    if request is not None:
+        user_input = request
+    # loading the files saved previously
+    words = pickle.load(open('bot/static/words.pkl', 'rb'))
+    word_classes = pickle.load(open('bot/static/classes.pkl', 'rb'))
+
+    logger.info('some sample text')
+    ints = class_prediction(input_words=user_input,
+                            words=words, word_classes=word_classes)
+    chat_resp = chat_response(ints, intents)
+    logger.info(chat_resp)
+    chat_resp_json = {'response': chat_resp}
+
+    return JsonResponse(chat_resp_json)
+
+def train_model_old(request):
 
     # Creating empty lists to store the lemmatized words, their class, and the overall word collection
     lem_words = []
@@ -35,6 +156,7 @@ def train_model(request):
     # Creating a list of regular expressions to ignore
     ignore_regex = ["?", "!", ".", ","]
 
+    logger.info(intents['intents'])
     for intent in intents['intents']:
         for pattern in intent['patterns']:
             # separating words from patterns
@@ -105,19 +227,28 @@ def train_model(request):
 
     model = Sequential()
 
+    # ======================================================
+    # # Adding a densely connected layer with 128 nodes, with ReLU activation function and input shape equal to input
+    # model.add(Dense(1024, input_shape=(input_shape,), activation='relu'))
+    # model.add(Dropout(0.25))  # Adding a dropout layer to prevent overfitting
+    # # Adding a densely connected layer with 64 nodes and ReLU activation function
+    # model.add(Dense(512, activation='relu'))
+    # # Adding another dropout layer to prevent overfitting
+    # model.add(Dropout(0.25))
+    # # Adding a densely connected layer with 64 nodes and ReLU activation function
+    # model.add(Dense(256, activation='relu'))
+    # # Adding another dropout layer to prevent overfitting
+    # model.add(Dropout(0.5))
+    # # Adding the final output layer with output shape equal to the number of classes and softmax activation function
+    # model.add(Dense(output_shape, activation='softmax'))
+    # ======================================================
     # Adding a densely connected layer with 128 nodes, with ReLU activation function and input shape equal to input
-    model.add(Dense(1024, input_shape=(input_shape,), activation='relu'))
-    model.add(Dropout(0.25))  # Adding a dropout layer to prevent overfitting
-    # Adding a densely connected layer with 64 nodes and ReLU activation function
-    model.add(Dense(512, activation='relu'))
-    # Adding another dropout layer to prevent overfitting
-    model.add(Dropout(0.25))
-    # Adding a densely connected layer with 64 nodes and ReLU activation function
-    model.add(Dense(256, activation='relu'))
-    # Adding another dropout layer to prevent overfitting
+    model.add(Dense(128, input_shape=(len(train_x[0]),), activation='relu'))
     model.add(Dropout(0.5))
-    # Adding the final output layer with output shape equal to the number of classes and softmax activation function
-    model.add(Dense(output_shape, activation='softmax'))
+    model.add(Dense(64, activation='relu'))
+    model.add(Dropout(0.5))
+    model.add(Dense(len(train_y[0]), activation='softmax'))
+    # =====================================================
 
     # Compiling the model with categorical cross-entropy as loss function, Adam optimizer
     sgd = SGD(learning_rate=0.01, decay=1e-7, momentum=0.9, nesterov=True)
@@ -190,7 +321,8 @@ def bag_of_words(input_words, words):
 
 def class_prediction(input_words, words, word_classes):
     logger.info('inside class_prediction function')
-    model = load_model('bot/mlmodels/chatbot_sgd_model.h5')
+    model = load_model('bot/mlmodels/chatbot_model.h5')
+    # model = load_model('bot/mlmodels/chatbot_adam_model.h5')
 
     feature_words = bag_of_words(input_words, words)
     resp = model.predict(np.array([feature_words]))[0]
@@ -208,6 +340,7 @@ def class_prediction(input_words, words, word_classes):
 
 
 def chat_response(w_list, intents_file):
+    logger.info(f'wlist: {w_list}')
     tag = w_list[0]['intent']
     list_of_intents = intents_file['intents']
     # print(f'tag: {tag}, {tag[1]}')
@@ -224,17 +357,4 @@ def chat_response(w_list, intents_file):
     return response
 
 
-def generate_response(request, user_input="hello"):
 
-    # loading the files saved previously
-    words = pickle.load(open('bot/static/words.pkl', 'rb'))
-    word_classes = pickle.load(open('bot/static/classes.pkl', 'rb'))
-
-    logger.info('some sample text')
-    ints = class_prediction(input_words=user_input,
-                            words=words, word_classes=word_classes)
-    chat_resp = chat_response(ints, intents)
-    logger.info(chat_resp)
-    chat_resp_json = {'response': chat_resp}
-
-    return JsonResponse(chat_resp_json)

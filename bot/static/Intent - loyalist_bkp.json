@@ -1,0 +1,72 @@
+{
+      "intents": [
+            {
+                  "tag": "Greeting",
+                  "patterns": [
+                        "Hi",
+                        "Hi there",
+                        "Hola",
+                        "Hello",
+                        "Hello there",
+                        "Hya",
+                        "Hya there"
+                  ],
+                  "responses": [
+                        "Hi human, please tell me your GeniSys user",
+                        "Hello human, please tell me your GeniSys user",
+                        "Hola human, please tell me your GeniSys user"
+                  ]
+            },
+            {
+                  "tag": "Joke",
+                  "patterns": [
+                        "You are very funny",
+                        "Makes me wanna Laugh",
+                        "I am having so much fun",
+                        "What humour",
+                        "I can see your smile",
+                        "I can tell it gives you joy"
+                  ],
+                  "responses": [
+                        "That was very funny",
+                        "You sure like to have a good time",
+                        "You have a good sense of humour"
+                  ]
+            },
+            {
+                  "tag": "Bad Language",
+                  "patterns": [
+                        "Fuck off",
+                        "This is Shit",
+                        "Damn man, grow up",
+                        "Bullshit, get lost",
+                        "Absolute nonsense",
+                        "You are crazy",
+                        "You must be mad"
+                  ],
+                  "responses": [
+                        "Please dont be rude",
+                        "Please mind your language",
+                        "No swear words please"
+                  ]
+            },
+           {
+                  "tag": "Courtesy Greeting",
+                  "patterns": [
+                        "How are you?",
+                        "How are you doing?",
+                        "Hope you are doing well?",
+                        "Hello hope you are doing well?"
+                  ],
+                  "responses": [
+                        "Hello, I am great, how are you? Please tell me your GeniSys user",
+                        "Hello, how are you? I am great thanks! Please tell me your GeniSys user",
+                        "Hello, I am good thank you, how are you? Please tell me your GeniSys user",
+                        "Hi, I am great, how are you? Please tell me your GeniSys user",
+                        "Hi, how are you? I am great thanks! Please tell me your GeniSys user",
+                        "Hi, I am good thank you, how are you? Please tell me your GeniSys user",
+                        "Hi, good thank you, how are you? Please tell me your GeniSys user"
+                  ]     
+            }
+      ]
+}

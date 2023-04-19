@@ -1,0 +1,1884 @@
+{
+    "intents": [
+        {
+            "tag": "Greeting",
+            "patterns": [
+                "Hi",
+                "Hi there",
+                "Hola",
+                "Hello",
+                "Hello there",
+                "Hya",
+                "Hya there"
+            ],
+            "responses": [
+                "Hi human, please tell me your GeniSys user",
+                "Hello human, please tell me your GeniSys user",
+                "Hola human, please tell me your GeniSys user"
+            ]
+        },
+        {
+            "tag": "Joke",
+            "patterns": [
+                "You are very funny",
+                "Makes me wanna Laugh",
+                "I am having so much fun",
+                "What humour",
+                "I can see your smile",
+                "I can tell it gives you joy"
+            ],
+            "responses": [
+                "That was very funny",
+                "You sure like to have a good time",
+                "You have a good sense of humour"
+            ]
+        },
+        {
+            "tag": "Bad Language",
+            "patterns": [
+                "Fuck off",
+                "This is Shit",
+                "Damn man, grow up",
+                "Bullshit, get lost",
+                "Absolute nonsense",
+                "You are crazy",
+                "You must be mad"
+            ],
+            "responses": [
+                "Please dont be rude",
+                "Please mind your language",
+                "No swear words please"
+            ]
+        },
+        {
+            "tag": "Courtesy Greeting",
+            "patterns": [
+                "How are you?",
+                "How are you doing?",
+                "Hope you are doing well?",
+                "Hello hope you are doing well?"
+            ],
+            "responses": [
+                "Hello, I am great, how are you? Please tell me your GeniSys user",
+                "Hello, how are you? I am great thanks! Please tell me your GeniSys user",
+                "Hello, I am good thank you, how are you? Please tell me your GeniSys user",
+                "Hi, I am great, how are you? Please tell me your GeniSys user",
+                "Hi, how are you? I am great thanks! Please tell me your GeniSys user",
+                "Hi, I am good thank you, how are you? Please tell me your GeniSys user",
+                "Hi, good thank you, how are you? Please tell me your GeniSys user"
+            ]
+        },
+        {
+            "tag": "course_title Advanced Filmmaking - Digital Content Creation ",
+            "patterns": [
+                "tell me more about",
+                "Advanced Filmmaking - Digital Content Creation "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:AFGS | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:AFGS | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:AFGS | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Advertising and Marketing Communications - Creative Design ",
+            "patterns": [
+                "tell me more about",
+                "Advertising and Marketing Communications - Creative Design "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:ACDS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:ACDS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:ACDS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Animation and Game Development ",
+            "patterns": [
+                "tell me more about",
+                "Animation and Game Development "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:AGAS | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:AGAS | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:AGAS | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Architectural Technician ",
+            "patterns": [
+                "tell me more about",
+                "Architectural Technician "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:ARCH | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:ARCH | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:ARCH | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Architectural Technology ",
+            "patterns": [
+                "tell me more about",
+                "Architectural Technology "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:ARC3 | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:ARC3 | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:ARC3 | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Artificial Intelligence & Data Science ",
+            "patterns": [
+                "tell me more about",
+                "Artificial Intelligence & Data Science "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Semesters | Program Code:AIGS | Credential:Graduate Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Semesters | Program Code:AIGS | Credential:Graduate Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Semesters | Program Code:AIGS | Credential:Graduate Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Bachelor of Science in Nursing (BSCN) (4 years at Loyalist) ",
+            "patterns": [
+                "tell me more about",
+                "Bachelor of Science in Nursing (BSCN) (4 years at Loyalist) "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Academic Years (Periods Of 8 Months) | Program Code:NRBS | Credential:Degree | Program Level:Degree | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Academic Years (Periods Of 8 Months) | Program Code:NRBS | Credential:Degree | Program Level:Degree | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Academic Years (Periods Of 8 Months) | Program Code:NRBS | Credential:Degree | Program Level:Degree | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Biotechnology ",
+            "patterns": [
+                "tell me more about",
+                "Biotechnology "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:BTDS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:BTDS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:BTDS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Biotechnology ",
+            "patterns": [
+                "tell me more about",
+                "Biotechnology "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:BTDJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:BTDJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:BTDJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Biotechnology-Advanced ",
+            "patterns": [
+                "tell me more about",
+                "Biotechnology-Advanced "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:BTAS | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:BTAS | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:BTAS | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Biotechnology-Advanced ",
+            "patterns": [
+                "tell me more about",
+                "Biotechnology-Advanced "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:BTAJ | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:BTAJ | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:BTAJ | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Bridge Semester for Rpn to Bachelor of Science in Nursing ",
+            "patterns": [
+                "tell me more about",
+                "Bridge Semester for Rpn to Bachelor of Science in Nursing "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:5 Semesters | Program Code:NRBM | Credential:Degree | Program Level:Degree | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:5 Semesters | Program Code:NRBM | Credential:Degree | Program Level:Degree | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:5 Semesters | Program Code:NRBM | Credential:Degree | Program Level:Degree | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Bridge Semester for Rpn to Bachelor of Science in Nursing ",
+            "patterns": [
+                "tell me more about",
+                "Bridge Semester for Rpn to Bachelor of Science in Nursing "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:5 Semesters | Program Code:NRBM | Credential:Degree | Program Level:Degree | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Closed | ",
+                "i guess here is what you need >> Program Info >>Program Length:5 Semesters | Program Code:NRBM | Credential:Degree | Program Level:Degree | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Closed | ",
+                "does this help? >> Program Info >>Program Length:5 Semesters | Program Code:NRBM | Credential:Degree | Program Level:Degree | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Closed | "
+            ]
+        },
+        {
+            "tag": "course_title Business ",
+            "patterns": [
+                "tell me more about",
+                "Business "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:BUDM | Credential:Diploma | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:BUDM | Credential:Diploma | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:BUDM | Credential:Diploma | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Business ",
+            "patterns": [
+                "tell me more about",
+                "Business "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:BUSI | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:BUSI | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:BUSI | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Business ",
+            "patterns": [
+                "tell me more about",
+                "Business "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:BUSJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:BUSJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:BUSJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Business ",
+            "patterns": [
+                "tell me more about",
+                "Business "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:BUDM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:BUDM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:BUDM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Business ",
+            "patterns": [
+                "tell me more about",
+                "Business "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:BUDM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:BUDM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:BUDM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | "
+            ]
+        },
+        {
+            "tag": "course_title Business ",
+            "patterns": [
+                "tell me more about",
+                "Business "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:BUHS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:BUHS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:BUHS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Business ",
+            "patterns": [
+                "tell me more about",
+                "Business "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:BUHJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:BUHJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:BUHJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Business Administration-Accounting ",
+            "patterns": [
+                "tell me more about",
+                "Business Administration-Accounting "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:ACC3 | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:ACC3 | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:ACC3 | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Business Administration-Accounting ",
+            "patterns": [
+                "tell me more about",
+                "Business Administration-Accounting "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:AC3J | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:AC3J | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:AC3J | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Business Sales and Marketing ",
+            "patterns": [
+                "tell me more about",
+                "Business Sales and Marketing "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:SALE | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:SALE | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:SALE | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Business Sales and Marketing ",
+            "patterns": [
+                "tell me more about",
+                "Business Sales and Marketing "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:SALJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:SALJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:SALJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Business-Accounting ",
+            "patterns": [
+                "tell me more about",
+                "Business-Accounting "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:ACCT | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:ACCT | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:ACCT | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Business-Accounting ",
+            "patterns": [
+                "tell me more about",
+                "Business-Accounting "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:ACCJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:ACCJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:ACCJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Cannabis Applied Science ",
+            "patterns": [
+                "tell me more about",
+                "Cannabis Applied Science "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:CSGS | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | ",
+                "i guess here is what you need >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:CSGS | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | ",
+                "does this help? >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:CSGS | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | "
+            ]
+        },
+        {
+            "tag": "course_title Carpentry and Renovation Technician ",
+            "patterns": [
+                "tell me more about",
+                "Carpentry and Renovation Technician "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:CRDM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:CRDM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:CRDM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Carpentry and Renovation Technician ",
+            "patterns": [
+                "tell me more about",
+                "Carpentry and Renovation Technician "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CARD | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CARD | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CARD | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Carpentry and Renovation Technician ",
+            "patterns": [
+                "tell me more about",
+                "Carpentry and Renovation Technician "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CRDM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CRDM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CRDM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Carpentry and Renovation Techniques ",
+            "patterns": [
+                "tell me more about",
+                "Carpentry and Renovation Techniques "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:CRCM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:CRCM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:CRCM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Carpentry and Renovation Techniques ",
+            "patterns": [
+                "tell me more about",
+                "Carpentry and Renovation Techniques "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:CARC | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:CARC | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:CARC | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Carpentry and Renovation Techniques ",
+            "patterns": [
+                "tell me more about",
+                "Carpentry and Renovation Techniques "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:CRCM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:CRCM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:CRCM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Chemical Engineering Technician ",
+            "patterns": [
+                "tell me more about",
+                "Chemical Engineering Technician "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CHEM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CHEM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CHEM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Chemical Engineering Technician ",
+            "patterns": [
+                "tell me more about",
+                "Chemical Engineering Technician "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:CHEJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:CHEJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:CHEJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Chemical Engineering Technology ",
+            "patterns": [
+                "tell me more about",
+                "Chemical Engineering Technology "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:CHE3 | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:CHE3 | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:CHE3 | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Chemical Engineering Technology ",
+            "patterns": [
+                "tell me more about",
+                "Chemical Engineering Technology "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:CH3J | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:CH3J | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:CH3J | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Child and Youth Care (Compressed 5 semesters) ",
+            "patterns": [
+                "tell me more about",
+                "Child and Youth Care (Compressed 5 semesters) "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Years (Periods Of 12 Months) | Program Code:CYAS | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Years (Periods Of 12 Months) | Program Code:CYAS | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Years (Periods Of 12 Months) | Program Code:CYAS | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Civil Engineering Technician ",
+            "patterns": [
+                "tell me more about",
+                "Civil Engineering Technician "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CIVL | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CIVL | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CIVL | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Civil Engineering Technician ",
+            "patterns": [
+                "tell me more about",
+                "Civil Engineering Technician "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:CIVJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:CIVJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:CIVJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Civil Engineering Technology ",
+            "patterns": [
+                "tell me more about",
+                "Civil Engineering Technology "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:CIV3 | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:CIV3 | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:CIV3 | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Civil Engineering Technology ",
+            "patterns": [
+                "tell me more about",
+                "Civil Engineering Technology "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:CI3J | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:CI3J | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:CI3J | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Community and Justice Services ",
+            "patterns": [
+                "tell me more about",
+                "Community and Justice Services "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CJSW | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CJSW | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CJSW | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Community and Justice Services ",
+            "patterns": [
+                "tell me more about",
+                "Community and Justice Services "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:CJSJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:CJSJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:CJSJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Community Integration Through Cooperative Education ",
+            "patterns": [
+                "tell me more about",
+                "Community Integration Through Cooperative Education "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters | Program Code:CICE | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters | Program Code:CICE | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters | Program Code:CICE | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Computer Systems Technician ",
+            "patterns": [
+                "tell me more about",
+                "Computer Systems Technician "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CTDS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CTDS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CTDS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Computer Systems Technician ",
+            "patterns": [
+                "tell me more about",
+                "Computer Systems Technician "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:CTDJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:CTDJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:CTDJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | "
+            ]
+        },
+        {
+            "tag": "course_title Computer Systems Technician ",
+            "patterns": [
+                "tell me more about",
+                "Computer Systems Technician "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CTHS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CTHS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CTHS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Computer Systems Technician ",
+            "patterns": [
+                "tell me more about",
+                "Computer Systems Technician "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:CTHJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:CTHJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:CTHJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Construction Engineering Technician ",
+            "patterns": [
+                "tell me more about",
+                "Construction Engineering Technician "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CONS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CONS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CONS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Construction Engineering Technician ",
+            "patterns": [
+                "tell me more about",
+                "Construction Engineering Technician "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:CONJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:CONJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:CONJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Culinary Management ",
+            "patterns": [
+                "tell me more about",
+                "Culinary Management "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CULM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CULM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CULM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Culinary Management ",
+            "patterns": [
+                "tell me more about",
+                "Culinary Management "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:CLDJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:CLDJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:CLDJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Culinary Management - Vegetarian ",
+            "patterns": [
+                "tell me more about",
+                "Culinary Management - Vegetarian "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CMDS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CMDS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CMDS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | "
+            ]
+        },
+        {
+            "tag": "course_title Culinary Skills ",
+            "patterns": [
+                "tell me more about",
+                "Culinary Skills "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:CULS | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:CULS | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:CULS | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Culinary Skills ",
+            "patterns": [
+                "tell me more about",
+                "Culinary Skills "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:CLCJ | Credential:Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:CLCJ | Credential:Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:CLCJ | Credential:Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Culinary Skills-Vegetarian ",
+            "patterns": [
+                "tell me more about",
+                "Culinary Skills-Vegetarian "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:CMCS | Credential:Certificate | Program Level:Post-Secondary | Program Type:Unknown | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | ",
+                "i guess here is what you need >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:CMCS | Credential:Certificate | Program Level:Post-Secondary | Program Type:Unknown | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | ",
+                "does this help? >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:CMCS | Credential:Certificate | Program Level:Post-Secondary | Program Type:Unknown | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | "
+            ]
+        },
+        {
+            "tag": "course_title Customs Border Services ",
+            "patterns": [
+                "tell me more about",
+                "Customs Border Services "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CUSB | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CUSB | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:CUSB | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Customs Border Services ",
+            "patterns": [
+                "tell me more about",
+                "Customs Border Services "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:CUSJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:CUSJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:CUSJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Developmental Services Worker ",
+            "patterns": [
+                "tell me more about",
+                "Developmental Services Worker "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:DSWP | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:DSWP | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:DSWP | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Developmental Services Worker ",
+            "patterns": [
+                "tell me more about",
+                "Developmental Services Worker "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:DSWJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:DSWJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:DSWJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Early Childhood Education ",
+            "patterns": [
+                "tell me more about",
+                "Early Childhood Education "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:ECEP | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:ECEP | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:ECEP | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Electrical Engineering Technician-Industrial ",
+            "patterns": [
+                "tell me more about",
+                "Electrical Engineering Technician-Industrial "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:ELTT | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:ELTT | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:ELTT | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Electrical Engineering Technician-Industrial ",
+            "patterns": [
+                "tell me more about",
+                "Electrical Engineering Technician-Industrial "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:ELTJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:ELTJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:ELTJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Electrical Techniques ",
+            "patterns": [
+                "tell me more about",
+                "Electrical Techniques "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:ELTP | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:ELTP | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:ELTP | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Electrical Techniques ",
+            "patterns": [
+                "tell me more about",
+                "Electrical Techniques "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:ELPJ | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:ELPJ | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:ELPJ | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Environmental Technician ",
+            "patterns": [
+                "tell me more about",
+                "Environmental Technician "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:ENVR | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:ENVR | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:ENVR | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Environmental Technician ",
+            "patterns": [
+                "tell me more about",
+                "Environmental Technician "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:ENVJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:ENVJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:ENVJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Environmental Technology ",
+            "patterns": [
+                "tell me more about",
+                "Environmental Technology "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:ENV3 | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:ENV3 | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:ENV3 | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Environmental Technology ",
+            "patterns": [
+                "tell me more about",
+                "Environmental Technology "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:EN3J | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:EN3J | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:EN3J | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Esthetics and Spa Management ",
+            "patterns": [
+                "tell me more about",
+                "Esthetics and Spa Management "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:ESTH | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:ESTH | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:ESTH | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Esthetics and Spa Management ",
+            "patterns": [
+                "tell me more about",
+                "Esthetics and Spa Management "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:ESTJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:ESTJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:ESTJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Finance & Analytics ",
+            "patterns": [
+                "tell me more about",
+                "Finance & Analytics "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:FADS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:FADS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:FADS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Finance & Analytics ",
+            "patterns": [
+                "tell me more about",
+                "Finance & Analytics "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:FIDJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:FIDJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:FIDJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Financial Technology ",
+            "patterns": [
+                "tell me more about",
+                "Financial Technology "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Semesters | Program Code:FTGS | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Semesters | Program Code:FTGS | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Semesters | Program Code:FTGS | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Financial Technology ",
+            "patterns": [
+                "tell me more about",
+                "Financial Technology "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:FTGJ | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:FTGJ | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:FTGJ | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Fitness and Health Promotion ",
+            "patterns": [
+                "tell me more about",
+                "Fitness and Health Promotion "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:FAHP | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:FAHP | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:FAHP | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Fitness and Health Promotion ",
+            "patterns": [
+                "tell me more about",
+                "Fitness and Health Promotion "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:FAHP | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 2 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:FAHP | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 2 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:FAHP | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 2 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title General Arts and Science ",
+            "patterns": [
+                "tell me more about",
+                "General Arts and Science "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:GACM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:GACM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:GACM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title General Arts and Science ",
+            "patterns": [
+                "tell me more about",
+                "General Arts and Science "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:GADM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:GADM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:GADM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title General Arts and Science ",
+            "patterns": [
+                "tell me more about",
+                "General Arts and Science "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:GASP | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:GASP | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:GASP | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title General Arts and Science ",
+            "patterns": [
+                "tell me more about",
+                "General Arts and Science "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:GASC | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:GASC | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:GASC | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title General Arts and Science ",
+            "patterns": [
+                "tell me more about",
+                "General Arts and Science "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:GACJ | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:GACJ | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:GACJ | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title General Arts and Science ",
+            "patterns": [
+                "tell me more about",
+                "General Arts and Science "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:GAPJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:GAPJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:GAPJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title General Arts and Science ",
+            "patterns": [
+                "tell me more about",
+                "General Arts and Science "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:GACM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:GACM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:GACM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title General Arts and Science ",
+            "patterns": [
+                "tell me more about",
+                "General Arts and Science "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:GADM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:GADM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:GADM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title General Arts and Science ",
+            "patterns": [
+                "tell me more about",
+                "General Arts and Science "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:GDHS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:GDHS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:GDHS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | "
+            ]
+        },
+        {
+            "tag": "course_title General Arts and Science-Workplace ",
+            "patterns": [
+                "tell me more about",
+                "General Arts and Science-Workplace "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:GCHS | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:GCHS | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:GCHS | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Heating, Refrigeration and Air Conditioning Techniques ",
+            "patterns": [
+                "tell me more about",
+                "Heating, Refrigeration and Air Conditioning Techniques "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:HACS | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:HACS | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:HACS | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Heating, Refrigeration and Air Conditioning Technician ",
+            "patterns": [
+                "tell me more about",
+                "Heating, Refrigeration and Air Conditioning Technician "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:HADS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:HADS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:HADS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Heating, Refrigeration and Air Conditioning Techniques ",
+            "patterns": [
+                "tell me more about",
+                "Heating, Refrigeration and Air Conditioning Techniques "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:HACJ | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:HACJ | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | ",
+                "does this help? >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:HACJ | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | "
+            ]
+        },
+        {
+            "tag": "course_title Heating, Refrigeration and Air Conditioning Technician ",
+            "patterns": [
+                "tell me more about",
+                "Heating, Refrigeration and Air Conditioning Technician "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:HADJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:HADJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:HADJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | "
+            ]
+        },
+        {
+            "tag": "course_title Human Resources Management ",
+            "patterns": [
+                "tell me more about",
+                "Human Resources Management "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:HRPG | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:HRPG | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:HRPG | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Human Resources Management ",
+            "patterns": [
+                "tell me more about",
+                "Human Resources Management "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:HRPJ | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:HRPJ | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:HRPJ | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Inspections, Enforcement, Safety and Investigations ",
+            "patterns": [
+                "tell me more about",
+                "Inspections, Enforcement, Safety and Investigations "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:PSIN | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:PSIN | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:PSIN | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Inspections, Enforcement, Safety and Investigations ",
+            "patterns": [
+                "tell me more about",
+                "Inspections, Enforcement, Safety and Investigations "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:PSIJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:PSIJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:PSIJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Journalism - Communications ",
+            "patterns": [
+                "tell me more about",
+                "Journalism - Communications "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:JCDS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:JCDS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:JCDS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Manufacturing Engineering Technician ",
+            "patterns": [
+                "tell me more about",
+                "Manufacturing Engineering Technician "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:MANU | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:MANU | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:MANU | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Manufacturing Engineering Technician ",
+            "patterns": [
+                "tell me more about",
+                "Manufacturing Engineering Technician "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:MANJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:MANJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:MANJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Massage Therapy ",
+            "patterns": [
+                "tell me more about",
+                "Massage Therapy "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:MTAS | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:MTAS | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:3 Academic Years (Periods Of 8 Months) | Program Code:MTAS | Credential:Advanced Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Mechanical Techniques ",
+            "patterns": [
+                "tell me more about",
+                "Mechanical Techniques "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:MECH | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:MECH | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:MECH | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Mechanical Techniques ",
+            "patterns": [
+                "tell me more about",
+                "Mechanical Techniques "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:MCHJ | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:MCHJ | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:MCHJ | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Mechatronics ",
+            "patterns": [
+                "tell me more about",
+                "Mechatronics "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:MCDS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:MCDS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:MCDS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Mechatronics ",
+            "patterns": [
+                "tell me more about",
+                "Mechatronics "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:MCDJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:MCDJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:MCDJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Motive Power Fundamentals - Parts and Counter Personnel ",
+            "patterns": [
+                "tell me more about",
+                "Motive Power Fundamentals - Parts and Counter Personnel "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:MPFP | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:MPFP | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:MPFP | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Motive Power Technician - Service and Management ",
+            "patterns": [
+                "tell me more about",
+                "Motive Power Technician - Service and Management "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:MPTN | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:MPTN | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:MPTN | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Natural Product Technologies ",
+            "patterns": [
+                "tell me more about",
+                "Natural Product Technologies "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:NTGS | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | ",
+                "i guess here is what you need >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:NTGS | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | ",
+                "does this help? >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:NTGS | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | "
+            ]
+        },
+        {
+            "tag": "course_title Occupational Therapist Assistant and Physiotherapist Assistant ",
+            "patterns": [
+                "tell me more about",
+                "Occupational Therapist Assistant and Physiotherapist Assistant "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:OTPT | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:OTPT | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:OTPT | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Paralegal ",
+            "patterns": [
+                "tell me more about",
+                "Paralegal "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:PARA | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:PARA | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:PARA | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Paramedic ",
+            "patterns": [
+                "tell me more about",
+                "Paramedic "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters | Program Code:PMED | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Waitlisted | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters | Program Code:PMED | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Waitlisted | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters | Program Code:PMED | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Waitlisted | "
+            ]
+        },
+        {
+            "tag": "course_title Paramedic ",
+            "patterns": [
+                "tell me more about",
+                "Paramedic "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:PMDM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Closed | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:PMDM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Closed | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:PMDM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Closed | "
+            ]
+        },
+        {
+            "tag": "course_title Paramedic ",
+            "patterns": [
+                "tell me more about",
+                "Paramedic "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:PMDM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Closed | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:PMDM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Closed | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:PMDM | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Closed | "
+            ]
+        },
+        {
+            "tag": "course_title Paramedic - Alternate Delivery ",
+            "patterns": [
+                "tell me more about",
+                "Paramedic - Alternate Delivery "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:PMDA | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:PMDA | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:PMDA | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Personal Support Worker ",
+            "patterns": [
+                "tell me more about",
+                "Personal Support Worker "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:25 Weeks | Program Code:PSWP | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:25 Weeks | Program Code:PSWP | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:25 Weeks | Program Code:PSWP | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Personal Support Worker ",
+            "patterns": [
+                "tell me more about",
+                "Personal Support Worker "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:25 Weeks | Program Code:PSWJ | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:25 Weeks | Program Code:PSWJ | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:25 Weeks | Program Code:PSWJ | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Personal Support Worker ",
+            "patterns": [
+                "tell me more about",
+                "Personal Support Worker "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Semesters | Program Code:PSCM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Semesters | Program Code:PSCM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Semesters | Program Code:PSCM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Personal Support Worker ",
+            "patterns": [
+                "tell me more about",
+                "Personal Support Worker "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:PSCM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:PSCM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | ",
+                "does this help? >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:PSCM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | "
+            ]
+        },
+        {
+            "tag": "course_title Photojournalism ",
+            "patterns": [
+                "tell me more about",
+                "Photojournalism "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:PHJN | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:PHJN | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:PHJN | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Photojournalism - Fast Track ",
+            "patterns": [
+                "tell me more about",
+                "Photojournalism - Fast Track "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:3 Semesters | Program Code:PHJF | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 2 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:3 Semesters | Program Code:PHJF | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 2 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:3 Semesters | Program Code:PHJF | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 2 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Police Foundations ",
+            "patterns": [
+                "tell me more about",
+                "Police Foundations "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:PFND | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:PFND | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:PFND | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Police Foundations ",
+            "patterns": [
+                "tell me more about",
+                "Police Foundations "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:PFNJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:PFNJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:PFNJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Practical Nursing ",
+            "patterns": [
+                "tell me more about",
+                "Practical Nursing "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:PNUR | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Waitlisted | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:PNUR | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Waitlisted | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:PNUR | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Waitlisted | "
+            ]
+        },
+        {
+            "tag": "course_title Practical Nursing ",
+            "patterns": [
+                "tell me more about",
+                "Practical Nursing "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:5 Semesters (Consecutive) | Program Code:PNDJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:5 Semesters (Consecutive) | Program Code:PNDJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:5 Semesters (Consecutive) | Program Code:PNDJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Pre-Health Sciences Pathway to Advanced Diplomas & Degrees ",
+            "patterns": [
+                "tell me more about",
+                "Pre-Health Sciences Pathway to Advanced Diplomas & Degrees "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:PRED | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:PRED | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:PRED | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Pre-Health Sciences Pathway to Advanced Diplomas & Degrees ",
+            "patterns": [
+                "tell me more about",
+                "Pre-Health Sciences Pathway to Advanced Diplomas & Degrees "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:PRDJ | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:PRDJ | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:PRDJ | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Pre-Health Sciences Pathway to Advanced Diplomas & Degrees ",
+            "patterns": [
+                "tell me more about",
+                "Pre-Health Sciences Pathway to Advanced Diplomas & Degrees "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:PRDM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:PRDM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:PRDM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Pre-Health Sciences Pathway to Advanced Diplomas & Degrees ",
+            "patterns": [
+                "tell me more about",
+                "Pre-Health Sciences Pathway to Advanced Diplomas & Degrees "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:PRDM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:PRDM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | ",
+                "does this help? >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:PRDM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | "
+            ]
+        },
+        {
+            "tag": "course_title Pre-Service Firefighter Education and Training ",
+            "patterns": [
+                "tell me more about",
+                "Pre-Service Firefighter Education and Training "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:3 Semesters (Consecutive) | Program Code:PFCJ | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:3 Semesters (Consecutive) | Program Code:PFCJ | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:3 Semesters (Consecutive) | Program Code:PFCJ | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:Yes | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Project Management ",
+            "patterns": [
+                "tell me more about",
+                "Project Management "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:PJMM | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:PJMM | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:PJMM | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Project Management ",
+            "patterns": [
+                "tell me more about",
+                "Project Management "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:PJMG | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:PJMG | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:PJMG | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Project Management ",
+            "patterns": [
+                "tell me more about",
+                "Project Management "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:PJMJ | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:PJMJ | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:PJMJ | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Project Management ",
+            "patterns": [
+                "tell me more about",
+                "Project Management "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:PJMM | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:PJMM | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:PJMM | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Public Relations-Event Management ",
+            "patterns": [
+                "tell me more about",
+                "Public Relations-Event Management "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:PRGS | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:PRGS | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:PRGS | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Radiation Safety ",
+            "patterns": [
+                "tell me more about",
+                "Radiation Safety "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:RADS | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | ",
+                "i guess here is what you need >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:RADS | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | ",
+                "does this help? >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:RADS | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | "
+            ]
+        },
+        {
+            "tag": "course_title Radiation Safety ",
+            "patterns": [
+                "tell me more about",
+                "Radiation Safety "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:RDCM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:RDCM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:RDCM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Radiation Safety ",
+            "patterns": [
+                "tell me more about",
+                "Radiation Safety "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:RADS | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:RADS | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:RADS | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Radiation Safety ",
+            "patterns": [
+                "tell me more about",
+                "Radiation Safety "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:RDCM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:RDCM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:RDCM | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Radio ",
+            "patterns": [
+                "tell me more about",
+                "Radio "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:RADB | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:RADB | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:RADB | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | "
+            ]
+        },
+        {
+            "tag": "course_title Recreation, Sports and Leisure ",
+            "patterns": [
+                "tell me more about",
+                "Recreation, Sports and Leisure "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:RSDS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:RSDS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:RSDS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Recreation, Sports and Leisure ",
+            "patterns": [
+                "tell me more about",
+                "Recreation, Sports and Leisure "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:RSDS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 2 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:RSDS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 2 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:RSDS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 2 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Social Service Worker ",
+            "patterns": [
+                "tell me more about",
+                "Social Service Worker "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:SSWP | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:SSWP | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:SSWP | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Social Service Worker ",
+            "patterns": [
+                "tell me more about",
+                "Social Service Worker "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:SSDJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:SSDJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:SSDJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Supply Chain Management - Global Logistics ",
+            "patterns": [
+                "tell me more about",
+                "Supply Chain Management - Global Logistics "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:LOGS | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:LOGS | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:LOGS | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Supply Chain Management - Global Logistics ",
+            "patterns": [
+                "tell me more about",
+                "Supply Chain Management - Global Logistics "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:LOGM | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:LOGM | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:LOGM | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Supply Chain Management - Global Logistics ",
+            "patterns": [
+                "tell me more about",
+                "Supply Chain Management - Global Logistics "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:LOGM | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:LOGM | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | ",
+                "does this help? >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:LOGM | Credential:Graduate Certificate | Program Level:Post-Diploma | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Closed | "
+            ]
+        },
+        {
+            "tag": "course_title Survey Engineering Technician ",
+            "patterns": [
+                "tell me more about",
+                "Survey Engineering Technician "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:SURV | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:SURV | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:SURV | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Television, Filmmaking & Digital Content Creation ",
+            "patterns": [
+                "tell me more about",
+                "Television, Filmmaking & Digital Content Creation "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:TFDS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:TFDS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:TFDS | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Welding and Fabrication Technician ",
+            "patterns": [
+                "tell me more about",
+                "Welding and Fabrication Technician "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:WELP | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:WELP | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Academic Years (Periods Of 8 Months) | Program Code:WELP | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Welding and Fabrication Technician ",
+            "patterns": [
+                "tell me more about",
+                "Welding and Fabrication Technician "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:WLPJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:WLPJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:4 Semesters (Consecutive) | Program Code:WLPJ | Credential:Diploma | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Welding Techniques ",
+            "patterns": [
+                "tell me more about",
+                "Welding Techniques "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:WELT | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:WELT | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:1 Academic Years (Periods Of 8 Months) | Program Code:WELT | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        },
+        {
+            "tag": "course_title Welding Techniques ",
+            "patterns": [
+                "tell me more about",
+                "Welding Techniques "
+            ],
+            "responses": [
+                "here you go >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:WLTJ | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "i guess here is what you need >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:WLTJ | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | ",
+                "does this help? >> Program Info >>Program Length:2 Semesters (Consecutive) | Program Code:WLTJ | Credential:Certificate | Program Level:Post-Secondary | Program Type:Regular | Language:English | Entry Level:Semester 1 | Highly Competitive:No | Program Status:Open | "
+            ]
+        }
+    ]
+}
