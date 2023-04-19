@@ -74,7 +74,7 @@ def train_model(request):
     i = Input(shape=(input_shape,))
     x = Embedding(vocabulary+1,10)(i)
     # x = Dense(128, input_shape=(input_shape,), activation='relu')(x)
-    # # x = Dropout(0.2)(x)
+    # x = Dropout(0.2)(x)
     # x = Dense(64, input_shape=(input_shape,), activation='relu')(x)
     # # x = Dropout(0.2)(x)
     # x = Dense(32, input_shape=(input_shape,), activation='relu')(x)
