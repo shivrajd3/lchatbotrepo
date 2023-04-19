@@ -1,36 +1,64 @@
 {
     "intents": [
         {
-            "tag": "Greeting",
+            "tag": "Help",
             "patterns": [
-                "Hi",
-                "Hi there",
-                "Hola",
-                "Hello",
-                "Hello there",
-                "Hya",
-                "Hya there"
+                "Can you help me?",
+                "I need some assistance"
             ],
             "responses": [
-                "Hi human, please tell me your GeniSys user",
-                "Hello human, please tell me your GeniSys user",
-                "Hola human, please tell me your GeniSys user"
+                "Of Course! How can I assist you today?",
+                "Sure, I'd be happy to help."
             ]
         },
         {
-            "tag": "Joke",
+            "tag": "Identity",
             "patterns": [
-                "You are very funny",
-                "Makes me wanna Laugh",
-                "I am having so much fun",
-                "What humour",
-                "I can see your smile",
-                "I can tell it gives you joy"
+                "What's your name?",
+                "Who are you?",
+                "Can you introduce yourself?"
             ],
             "responses": [
-                "That was very funny",
-                "You sure like to have a good time",
-                "You have a good sense of humour"
+                "My name is GeniSys. I am an AI chatbot designed to assist and communicate with humans.",
+                "I am GeniSys, I can help you with any questions or concerns you may have.",
+                "Hi there! I am GeniSys, the friendly chatbot. How can I assist you today?"
+            ]
+        },
+        {
+            "tag": "Greeting",
+            "patterns": [
+                "Hi there",
+                "Hello there",
+                "Hola there",
+                "How are you?",
+                "How are you doing?",
+                "Hope you are doing well?",
+                "Hello, hope you are doing well?"
+            ],
+            "responses": [
+                "Hello there, how can I help you today (Program related details only please!)",
+                "Hola, What program information can I provide for you today",
+                "Hi, I am great, how are you? which program related information do you need?",
+                "Hello, how are you? I am great thanks! Which program do you need details of?",
+                "Hi, I am good thank you, how are you? Which of our programs are you interested in today?",
+                "Hi, I am great, how are you? Please tell me your user"
+            ]
+        },
+        {
+            "tag": "Appreciate",
+            "patterns": [
+                "Thank you",
+                "Thank you so much",
+                "You have been very helpful",
+                "Thanks for your assistance",
+                "Nice chatting with you",
+                "Great job, I appreciate"
+            ],
+            "responses": [
+                "You are very welcome",
+                "No worries, I am glad to be of assistance",
+                "I am happy to assist you any time",
+                "Thanks to you for dropping by"
             ]
         },
         {
@@ -48,24 +76,6 @@
                 "Please dont be rude",
                 "Please mind your language",
                 "No swear words please"
-            ]
-        },
-        {
-            "tag": "Courtesy Greeting",
-            "patterns": [
-                "How are you?",
-                "How are you doing?",
-                "Hope you are doing well?",
-                "Hello hope you are doing well?"
-            ],
-            "responses": [
-                "Hello, I am great, how are you? Please tell me your GeniSys user",
-                "Hello, how are you? I am great thanks! Please tell me your GeniSys user",
-                "Hello, I am good thank you, how are you? Please tell me your GeniSys user",
-                "Hi, I am great, how are you? Please tell me your GeniSys user",
-                "Hi, how are you? I am great thanks! Please tell me your GeniSys user",
-                "Hi, I am good thank you, how are you? Please tell me your GeniSys user",
-                "Hi, good thank you, how are you? Please tell me your GeniSys user"
             ]
         },
         {

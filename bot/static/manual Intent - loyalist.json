@@ -1,6 +1,30 @@
 {
       "intents": [
             {
+                  "tag": "Help",
+                  "patterns": [
+                        "Can you help me?",
+                        "I need some assistance"
+                  ],
+                  "responses": [
+                        "Of Course! How can I assist you today?",
+                        "Sure, I'd be happy to help."
+                  ]
+            },
+            {
+                  "tag": "Identity",
+                  "patterns": [
+                        "What's your name?",
+                        "Who are you?",
+                        "Can you introduce yourself?"
+                  ],
+                  "responses": [
+                        "My name is GeniSys. I am an AI chatbot designed to assist and communicate with humans.",
+                        "I am GeniSys, I can help you with any questions or concerns you may have.",
+                        "Hi there! I am GeniSys, the friendly chatbot. How can I assist you today?"
+                  ]
+            },
+            {
                   "tag": "Greeting",
                   "patterns": [
                       "Hi there",
@@ -17,7 +41,7 @@
                       "Hi, I am great, how are you? which program related information do you need?",
                       "Hello, how are you? I am great thanks! Which program do you need details of?",
                       "Hi, I am good thank you, how are you? Which of our programs are you interested in today?",
-                      "Hi, I am great, how are you? Please tell me your GeniSys user"
+                      "Hi, I am great, how are you? Please tell me your user"
                   ]
               },
               {
