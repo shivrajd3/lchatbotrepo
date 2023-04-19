@@ -55,4 +55,5 @@ class askthebot(viewsets.ViewSet):
         logger.info(botresponse_json)
         # return JsonResponse(json.loads(json.dumps(botresponse_json)), safe=False, 
         #                 status=status.HTTP_200_OK)
-        return JsonResponse(botresponse_json)
+        return JsonResponse(botresponse_json, safe=False, 
+                        status=status.HTTP_200_OK)
