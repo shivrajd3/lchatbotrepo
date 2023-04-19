@@ -7,7 +7,8 @@ from rest_framework.response import Response
 import json
 import logging
 logger = logging.getLogger('django')
-
+from django.http import JsonResponse
+from rest_framework import status
 # Create your views here.
 
 
@@ -26,16 +27,32 @@ class askthebot(viewsets.ViewSet):
         # botresponse = generate_response("hi there")
         botresponse = generate_response(user_msg_data)
         botresponse = botresponse.content
-        botresponse_json = json.loads(botresponse)
+        botresponse_json = json.loads(botresponse.decode('utf-8'))
+        logger.info(type(botresponse_json))
 
         # botresponse = botresponse['response']
-        logger.info(f'botresponse received: {botresponse}')
-        logger.info(f'botresponse json: {botresponse_json}')
-        logger.info(f"user_message: {user_msg['user_msg']}")
-        logger.info(
-            f"botresponse json response: {botresponse_json['response']}")
+        # logger.info(f'botresponse received: {botresponse}')
+        # logger.info(f'botresponse received type: {type(botresponse)}')
+        # logger.info(f'botresponse json: {botresponse_json}')
+        # logger.info(f'botresponse json type: {type(botresponse_json)}')
+        # logger.info(f"user_message: {user_msg['user_msg']}")
+        # logger.info(
+        #     f"botresponse json response: {botresponse_json['response']}")
         # botresponseobj = ResponseClass(botresponse=botresponse_json)
         botresponseobj = ResponseClass(botresponse=botresponse_json['response'])
         serializer = BotResponseSerializer(botresponseobj)
-        logger.info(f"serializer data bot response: {serializer.data['botresponse']}")
-        return Response(serializer.data['botresponse'])
+        # logger.info(f"serializer data bot response type: {json.dumps(serializer.data['botresponse'])}")
+        # logger.info(f"serializer data bot response type: {type(json.dumps(serializer.data['botresponse']))}")
+        # logger.info(f"serializer data bot response type: {json.dumps(botresponse_json)}")
+        # logger.info(f"serializer data bot response type: {type(json.dumps(botresponse_json))}")
+        # return Response(serializer.data['botresponse'])
+        # return Response(json.dumps(serializer.data['botresponse']))
+        # logger.info(f"type: {type(botresponse_json)}")
+        logger.info(type(serializer.data['botresponse']))
+        # logger.info(type(json.loads(json.dumps(botresponse_json))))
+        logger.info(type(botresponse_json))
+        # return Response(serializer.data['botresponse'])
+        logger.info(botresponse_json)
+        # return JsonResponse(json.loads(json.dumps(botresponse_json)), safe=False, 
+        #                 status=status.HTTP_200_OK)
+        return JsonResponse(botresponse_json)

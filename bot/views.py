@@ -109,7 +109,6 @@ def generate_response(request, user_input="hello"):
     prediction_input = pad_sequences([prediction_input],input_shape)
 
     #getting output from model
-    
     output = model.predict(prediction_input)
     output = output.argmax()
 
@@ -118,8 +117,9 @@ def generate_response(request, user_input="hello"):
     print("Loyalist Bot : ",random.choice(responses[response_tag]))
     chat_resp = random.choice(responses[response_tag])
     
-    chat_resp_json = {'response': chat_resp}
-    return JsonResponse(chat_resp_json)
+    # chat_resp_json = {'response': chat_resp}
+    chat_resp_json = chat_resp
+    return JsonResponse(chat_resp)
 
 def generate_response_old(request, user_input="hello"):
 
