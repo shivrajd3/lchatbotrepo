@@ -1,3 +1,4 @@
 .db.sqlite3
 bot/__pycache__
 /bot/__pycache__
+__pycache__/
