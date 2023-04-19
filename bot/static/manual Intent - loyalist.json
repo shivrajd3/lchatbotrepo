@@ -4,7 +4,9 @@
                   "tag": "Help",
                   "patterns": [
                         "Can you help me?",
-                        "I need some assistance"
+                        "I need some assistance",
+                        "help me",
+                        "assistance"
                   ],
                   "responses": [
                         "Of Course! How can I assist you today?",
@@ -16,12 +18,14 @@
                   "patterns": [
                         "What's your name?",
                         "Who are you?",
-                        "Can you introduce yourself?"
+                        "Can you introduce yourself?",
+                        "who are",
+                        "you"
                   ],
                   "responses": [
-                        "My name is GeniSys. I am an AI chatbot designed to assist and communicate with humans.",
-                        "I am GeniSys, I can help you with any questions or concerns you may have.",
-                        "Hi there! I am GeniSys, the friendly chatbot. How can I assist you today?"
+                        "My name is LChatBot. I am an AI chatbot designed to assist and communicate with humans.",
+                        "I am LChatBot, I can help you with any questions or concerns you may have.",
+                        "Hi there! I am LChatBot, the friendly chatbot. How can I assist you today?"
                   ]
             },
             {
@@ -52,7 +56,9 @@
                       "You have been very helpful",
                       "Thanks for your assistance",
                       "Nice chatting with you",
-                      "Great job, I appreciate"
+                      "Great job, I appreciate",
+                      "thanks",
+                      "thnx"
                   ],
                   "responses": [
                       "You are very welcome",

@@ -86,7 +86,7 @@ def train_model(request):
 
     model.compile(loss="sparse_categorical_crossentropy",optimizer='adam',metrics=['accuracy'])
 
-    train = model.fit(x_train,y_train,epochs=50)
+    train = model.fit(x_train,y_train,epochs=100)
     model.save("bot/mlmodels/chatbot_model.h5", model)
     return HttpResponse('training completed')
 
