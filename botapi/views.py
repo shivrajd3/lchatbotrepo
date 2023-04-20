@@ -1,3 +1,5 @@
+from rest_framework import status
+from django.http import JsonResponse
 from bot.views import generate_response
 from django.shortcuts import render
 from rest_framework import viewsets
@@ -7,8 +9,6 @@ from rest_framework.response import Response
 import json
 import logging
 logger = logging.getLogger('django')
-from django.http import JsonResponse
-from rest_framework import status
 # Create your views here.
 
 
@@ -39,8 +39,8 @@ class askthebot(viewsets.ViewSet):
         # logger.info(
         #     f"botresponse json response: {botresponse_json['response']}")
         # botresponseobj = ResponseClass(botresponse=botresponse_json)
-        botresponseobj = ResponseClass(botresponse=botresponse_json['response'])
-        serializer = BotResponseSerializer(botresponseobj)
+        # botresponseobj = ResponseClass(botresponse=botresponse_json['response'])
+        # serializer = BotResponseSerializer(botresponseobj)
         # logger.info(f"serializer data bot response type: {json.dumps(serializer.data['botresponse'])}")
         # logger.info(f"serializer data bot response type: {type(json.dumps(serializer.data['botresponse']))}")
         # logger.info(f"serializer data bot response type: {json.dumps(botresponse_json)}")
@@ -48,16 +48,16 @@ class askthebot(viewsets.ViewSet):
         # return Response(serializer.data['botresponse'])
         # return Response(json.dumps(serializer.data['botresponse']))
         # logger.info(f"type: {type(botresponse_json)}")
-        logger.info(type(serializer.data['botresponse']))
+        # logger.info(type(serializer.data['botresponse']))
         # logger.info(type(json.loads(json.dumps(botresponse_json))))
         logger.info(type(botresponse_json))
         # return Response(serializer.data['botresponse'])
         logger.info(botresponse_json)
-        # return JsonResponse(json.loads(json.dumps(botresponse_json)), safe=False, 
+        # return JsonResponse(json.loads(json.dumps(botresponse_json)), safe=False,
         #                 status=status.HTTP_200_OK)
         # if not isinstance(botresponse_json, dict):
         #     logger.info('updating botresponse_json')
         #     botresponse_json = json.loads({'response': botresponse_json})
         # logger.info(type(botresponse_json))
-        return JsonResponse(botresponse_json, safe=False, 
-                        status=status.HTTP_200_OK)
+        return JsonResponse(botresponse_json, safe=False,
+                            status=status.HTTP_200_OK)
