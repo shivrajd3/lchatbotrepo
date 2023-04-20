@@ -9,8 +9,12 @@
                 "assistance"
             ],
             "responses": [
-                "Of Course! How can I assist you today?",
-                "Sure, I'd be happy to help."
+                {
+                    "resp": "Of Course! How can I assist you today?"
+                },
+                {
+                    "resp": "Sure, I'd be happy to help."
+                }
             ]
         },
         {
@@ -23,9 +27,15 @@
                 "you"
             ],
             "responses": [
-                "My name is LChatBot. I am an AI chatbot designed to assist and communicate with humans.",
-                "I am LChatBot, I can help you with any questions or concerns you may have.",
-                "Hi there! I am LChatBot, the friendly chatbot. How can I assist you today?"
+                {
+                    "resp": "My name is LChatBot. I am an AI chatbot designed to assist and communicate with humans."
+                },
+                {
+                    "resp": "I am LChatBot, I can help you with any questions or concerns you may have."
+                },
+                {
+                    "resp": "Hi there! I am LChatBot, the friendly chatbot. How can I assist you today?"
+                }
             ]
         },
         {
@@ -40,12 +50,24 @@
                 "Hello, hope you are doing well?"
             ],
             "responses": [
-                "Hello there, how can I help you today (Program related details only please!)",
-                "Hola, What program information can I provide for you today",
-                "Hi, I am great, how are you? which program related information do you need?",
-                "Hello, how are you? I am great thanks! Which program do you need details of?",
-                "Hi, I am good thank you, how are you? Which of our programs are you interested in today?",
-                "Hi, I am great, how are you? Please tell me your user"
+                {
+                    "resp": "Hello there, how can I help you today (Program related details only please!)"
+                },
+                {
+                    "resp": "Hola, What program information can I provide for you today"
+                },
+                {
+                    "resp": "Hi, I am great, how are you? which program related information do you need?"
+                },
+                {
+                    "resp": "Hello, how are you? I am great thanks! Which program do you need details of?"
+                },
+                {
+                    "resp": "Hi, I am good thank you, how are you? Which of our programs are you interested in today?"
+                },
+                {
+                    "resp": "Hi, I am great, how are you? Please tell me your user"
+                }
             ]
         },
         {
@@ -61,10 +83,18 @@
                 "thnx"
             ],
             "responses": [
-                "You are very welcome",
-                "No worries, I am glad to be of assistance",
-                "I am happy to assist you any time",
-                "Thanks to you for dropping by"
+                {
+                    "resp": "You are very welcome"
+                },
+                {
+                    "resp": "No worries, I am glad to be of assistance"
+                },
+                {
+                    "resp": "I am happy to assist you any time"
+                },
+                {
+                    "resp": "Thanks to you for dropping by"
+                }
             ]
         },
         {
@@ -79,9 +109,15 @@
                 "You must be mad"
             ],
             "responses": [
-                "Please dont be rude",
-                "Please mind your language",
-                "No swear words please"
+                {
+                    "resp": "Please dont be rude"
+                },
+                {
+                    "resp": "Please mind your language"
+                },
+                {
+                    "resp": "No swear words please"
+                }
             ]
         },
         {

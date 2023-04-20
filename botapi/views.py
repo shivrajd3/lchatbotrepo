@@ -55,5 +55,9 @@ class askthebot(viewsets.ViewSet):
         logger.info(botresponse_json)
         # return JsonResponse(json.loads(json.dumps(botresponse_json)), safe=False, 
         #                 status=status.HTTP_200_OK)
+        # if not isinstance(botresponse_json, dict):
+        #     logger.info('updating botresponse_json')
+        #     botresponse_json = json.loads({'response': botresponse_json})
+        # logger.info(type(botresponse_json))
         return JsonResponse(botresponse_json, safe=False, 
                         status=status.HTTP_200_OK)
